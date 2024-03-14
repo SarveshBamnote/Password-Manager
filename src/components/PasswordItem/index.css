@@ -1,0 +1,36 @@
+.li-container {
+  list-style-type: none;
+  border: 1px solid #7683cb;
+  border-radius: 8px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  min-width: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.detail {
+  color: #ffffff;
+  margin: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: 'Roboto';
+}
+
+.star {
+  width: 120px;
+}
+
+.delete-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.delete-icon {
+  width: 28px;
+  height: 28px;
+}
